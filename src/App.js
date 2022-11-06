@@ -66,7 +66,9 @@ function App() {
             <p className='text-[1.5vmax] font-bold' >NFT Description : Bored Ape Yatch Club</p>
             <p className='text-[1.5vmax] font-bold' >NFT Owner : 0xD4Ab...5fF72</p>
             <p className='text-[1.5vmax] font-bold' >NFT Price : 0.1 MATIC</p>
+            <a className='w-full' href='https://ipfs-nu-lemon.vercel.app/' target={'_blank'}>
             <button className='bg-white w-full my-4 p-3 rounded-xl text-2xl text-violet-900' onClick={()=>mintnft()} >Mint and Buy NFT</button>
+            </a>
           </div>
       </div>
     </div>
